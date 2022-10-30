@@ -12,7 +12,7 @@ const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, revers
           <h1 className={`${reverse ? styles.blackText : styles.whiteText} ${styles.h1Text}`}>{title}</h1>
           <p className={`${reverse ? styles.blackText : styles.whiteText} ${styles.descriptionText}`}>{description}</p>
           {showBtn && (
-            <Button assetUrl={assets.expo} link="Deployed NFT Marketplace" />
+            <Button assetUrl={assets.expo} link="https://expo.dev/@snyder625/NFT_Marketplace?serviceType=classic&distribution=expo-go" />
           )}
         </div>
         <div className={`flex-1 ${styles.flexCenter} p-8 sm:px-0`}>
